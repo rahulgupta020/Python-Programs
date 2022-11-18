@@ -1,0 +1,11 @@
+"""
+Write a Python Program to find Sum of Integers that are Divisible by 2 or 5.
+
+Code:
+"""
+
+result = 0
+for num in range(1, 100+1):
+    if(num%2==0) or (num%5==0):
+        result = result + num
+print("Sum of Integers are = ", result)
