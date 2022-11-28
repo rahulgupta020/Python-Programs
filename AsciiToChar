@@ -1,0 +1,8 @@
+"""
+Write a Python Program to convert ASCII to Character.
+
+Code:
+"""
+
+num = int(input("Enter a number :- "))
+print("ASCII Values is = ", chr(num))
