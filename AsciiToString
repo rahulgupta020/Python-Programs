@@ -1,0 +1,9 @@
+"""
+Write a Python Program to convert ASCII to String.
+
+Code:
+"""
+
+num = [97, 98, 99]
+for n in num:
+    print(chr(n), end=" ")
